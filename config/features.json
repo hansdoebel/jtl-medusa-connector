@@ -1,0 +1,8 @@
+{
+  "entities": {
+    "GlobalData": { "pull": true, "push": false, "delete": false },
+    "Category": { "pull": false, "push": true, "delete": false },
+    "Product": { "pull": false, "push": true, "delete": false }
+  },
+  "flags": {}
+}

@@ -1,0 +1,11 @@
+services:
+  connector:
+    build: .
+    env_file: .env
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - connector-state:/app/var
+    restart: unless-stopped
+volumes:
+  connector-state:
